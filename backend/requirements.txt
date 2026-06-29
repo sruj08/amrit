@@ -1,1 +1,7 @@
 numpy>=2.0
+scipy
+scikit-learn
+matplotlib
+# Optional: uncomment when processing real DFSAR data
+# pds4_tools
+# rasterio
