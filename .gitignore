@@ -1,0 +1,11 @@
+node_modules/
+dist/
+frontend/dist/
+*.local
+.DS_Store
+__pycache__/
+*.pyc
+*.tsbuildinfo
+.vite/
+frontend/vite.config.js
+frontend/vite.config.d.ts

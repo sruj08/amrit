@@ -1,0 +1,15 @@
+{
+  "name": "lrip",
+  "private": true,
+  "version": "1.0.0",
+  "description": "LRIP — Lunar Resource Intelligence Platform (Chandrayaan-2 DFSAR). Bharatiya Antariksh Hackathon 2026, Problem Statement 8.",
+  "workspaces": [
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w frontend",
+    "build": "npm run build -w frontend",
+    "preview": "npm run preview -w frontend",
+    "pipelines": "py -3.12 backend/run_all.py"
+  }
+}
