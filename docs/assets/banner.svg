@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" font-family="'JetBrains Mono','SFMono-Regular',Consolas,monospace">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0a0f"/>
+      <stop offset="0.6" stop-color="#0f0f1a"/>
+      <stop offset="1" stop-color="#10122a"/>
+    </linearGradient>
+    <radialGradient id="ice" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#f0d24a"/>
+      <stop offset="0.35" stop-color="#e05a68"/>
+      <stop offset="0.7" stop-color="#8b0aa5"/>
+      <stop offset="1" stop-color="#0d0887" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3b5bdb"/>
+      <stop offset="1" stop-color="#4c6ef5"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <!-- subtle grid -->
+  <g stroke="#1e1e3a" stroke-width="1" opacity="0.5">
+    <line x1="0" y1="80" x2="1200" y2="80"/>
+    <line x1="0" y1="240" x2="1200" y2="240"/>
+  </g>
+
+  <!-- orbital ice-lobe motif (right) -->
+  <g transform="translate(960,160)">
+    <circle r="120" fill="none" stroke="#252545" stroke-width="1"/>
+    <circle r="92" fill="none" stroke="#252545" stroke-width="1" stroke-dasharray="3 5"/>
+    <circle r="78" fill="url(#ice)"/>
+    <circle r="44" fill="none" stroke="#22d3ee" stroke-width="1.5" opacity="0.8"/>
+    <!-- traverse path -->
+    <path d="M 96 96 C 60 60, 20 30, 4 -6" fill="none" stroke="#00e5ff" stroke-width="2.5"/>
+    <rect x="90" y="90" width="9" height="9" fill="#ffd700"/>
+    <path d="M0,-12 3,-4 11,-4 5,2 7,10 0,5 -7,10 -5,2 -11,-4 -3,-4 Z" fill="#ff2bd6"/>
+  </g>
+
+  <!-- logo mark -->
+  <g transform="translate(70,118)">
+    <rect x="0" y="0" width="56" height="56" rx="10" fill="#11132e" stroke="#3b5bdb" stroke-width="1.5"/>
+    <circle cx="28" cy="28" r="15" fill="none" stroke="#4c6ef5" stroke-width="2"/>
+    <circle cx="28" cy="28" r="4" fill="#cc66ff"/>
+    <ellipse cx="28" cy="28" rx="26" ry="9" fill="none" stroke="#4c6ef5" stroke-width="1.5" transform="rotate(28 28 28)"/>
+  </g>
+
+  <!-- title -->
+  <text x="146" y="138" fill="#e8e8f0" font-size="44" font-weight="700" letter-spacing="2">LRIP</text>
+  <text x="148" y="168" fill="#8888aa" font-size="16" letter-spacing="3">LUNAR RESOURCE INTELLIGENCE PLATFORM</text>
+
+  <!-- tagline -->
+  <text x="70" y="214" fill="#cdd2e6" font-size="17" font-weight="600">Detection → Decision → Traverse → Confidence</text>
+  <text x="70" y="240" fill="#8888aa" font-size="13">Physics-informed subsurface ice likelihood, calibrated uncertainty, and</text>
+  <text x="70" y="258" fill="#8888aa" font-size="13">power-aware mission planning for Chandrayaan-2 DFSAR.</text>
+
+  <!-- chips -->
+  <g font-size="11" fill="#9fb0ff">
+    <rect x="70" y="276" width="150" height="24" rx="4" fill="#11132e" stroke="#333366"/>
+    <text x="82" y="292">Bharatiya Antariksh 2026</text>
+    <rect x="230" y="276" width="132" height="24" rx="4" fill="#11132e" stroke="#333366"/>
+    <text x="242" y="292">Problem Statement 8</text>
+    <rect x="372" y="276" width="118" height="24" rx="4" fill="#11132e" stroke="#333366"/>
+    <text x="384" y="292">AUC 0.783 → 0.921</text>
+  </g>
+</svg>
