@@ -1,8 +1,4 @@
-<div align="center">
-
-<img src="docs/assets/banner.svg" alt="AMRIT - Lunar Resource Intelligence Platform" width="100%"/>
-
-<br/>
+AMRIT
 
 **Detection → Decision → Traverse → Confidence**
 
