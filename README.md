@@ -1,4 +1,8 @@
-AMRIT
+<div align="center">
+
+<img src="docs/assets/banner.svg" alt="AMRIT - Advanced Mission Resource Intelligence Tool" width="100%"/>
+
+<br/>
 
 **Detection → Decision → Traverse → Confidence**
 
